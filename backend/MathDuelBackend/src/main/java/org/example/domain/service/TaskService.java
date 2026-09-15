@@ -1,4 +1,4 @@
-package org.example.datasource.service;
+package org.example.domain.service;
 
 import org.example.domain.enums.DifficultyLevel;
 import org.example.domain.model.Task;
