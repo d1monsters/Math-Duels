@@ -1,4 +1,4 @@
-package org.example.domain.service;
+package org.example.service;
 
 import org.example.domain.enums.DifficultyLevel;
 import org.example.domain.model.Task;
@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface TaskService {
 
-    List<Task> getTasksByDifficulty(DifficultyLevel difficulty);
+    List<Task> getTasksByDifficulty(DifficultyLevel difficulty, int count);
 
     Task getTaskById(Long id);
 }
